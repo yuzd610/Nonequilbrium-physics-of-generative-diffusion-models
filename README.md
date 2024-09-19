@@ -33,6 +33,7 @@ You can install these dependencies using conda:
 ### Ensemble Statistics
 - The scripts (`Eforward.py`) and (`Ebackward.py`) can be run directly.
 - (`Eforward.py`) generates ensemble statistics for the forward process, while (`Ebackward.py`) generates ensemble statistics for the backward process.
+- The code only works for two Gaussian mixtures with equal weights and symmetric means about the origin.
 
 #### The files (`Eforward.py`) and (`Ebackward.py`) include the following input arguments:
 - `n` represents the number of Monte Carlo samples.
@@ -58,6 +59,7 @@ You can install these dependencies using conda:
 ### Histogram of trajectory statistics
 - The scripts (`Hforward.py`) and (`Hbackward.py`) can be run directly.
 - (`Hforward.py`) generates trajectory statistics for the forward process, while (`Hbackward.py`) generates trajectory statistics for the backward process.
+-  The code only works for two Gaussian mixtures with equal weights and symmetric means about the origin.
 #### The files (`Hforward.py`) and (`Hbackward.py`) include the following input arguments:
 - `n` represents the number of trajectories.
 - `pi1` denotes the weight of one Gaussian component in the mixture.
@@ -71,7 +73,7 @@ You can install these dependencies using conda:
 ### Numerical verification of the integral fluctuation theorem
 - The scripts (`forward_n.py`) and (`backward_n.py`) can be run directly.
 - (`forward_n.py`) verify positive integral fluctuations for the forward process, while  (`backward_n.py`) verify positive integral fluctuations for the backward process.
-- This code is designed to work only if the Gaussian distributions in the mixture have unit variance.
+- This code is designed to work only if the Gaussian distributions in the mixture have unit variance and works for two Gaussian mixtures with equal weights and symmetric means about the origin.
 #### The files (`forward_n.py`) and (`backward_n.py`) include the following input arguments:
 - `pi1` denotes the weight of one Gaussian component in the mixture.
 - `pi2` denotes the weight of another Gaussian component in the mixture.
