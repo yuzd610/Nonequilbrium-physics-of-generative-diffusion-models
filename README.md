@@ -1,5 +1,12 @@
 # Nonequilbrium physics of generative diffusion models
 
+code for [Nonequilbrium physics of generative diffusion models](https://arxiv.org/abs/2405.11932).Here, we present a nonequilibrium physical analysis of generative diffusion models, providing insights into entropy production, entropy flux, and related phenomena. Additionally, we uncover physical phenomena such as phase transitions during symmetry-breaking processes. For further details, please refer to our freely accessible article.
+
+
+
+
+
+
 ## Overview
 - This repository provides the code for the framework presented in [Nonequilbrium physics of generative diffusion models](https://arxiv.org/abs/2405.11932):
 - In this paper, we provide a transparent physics analysis of the diffusion
