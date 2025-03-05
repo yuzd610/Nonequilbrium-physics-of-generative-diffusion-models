@@ -92,6 +92,9 @@ You can install these dependencies using conda:
 ### Potential Energy
 - The scripts (`Potential Energy.py`)  can be run directly.
 
+### Phase diagram
+-This section provides symbolic calculations of t_s for the diffusion model and draws a phase diagram for the symmetry breaking process.
+
 ## Citation
 This code is the product of work carried out by the group of [PMI lab, Sun Yat-sen University](https://www.labxing.com/hphuang2018). If the code helps, consider giving us a shout-out in your publications.
 
