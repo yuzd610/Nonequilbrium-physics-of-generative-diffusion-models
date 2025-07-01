@@ -98,7 +98,7 @@ You can install these dependencies using conda:
 ## Citation
 This code is the product of work carried out by the group of [PMI lab, Sun Yat-sen University](https://www.labxing.com/hphuang2018). If the code helps, consider giving us a shout-out in your publications.
 
-
+```bibtex
 @article{yu2025nonequilbrium,
   title={Nonequilbrium physics of generative diffusion models},
   author={Yu, Zhendong and Huang, Haiping},
@@ -109,6 +109,8 @@ This code is the product of work carried out by the group of [PMI lab, Sun Yat-s
   year={2025},
   publisher={APS}
 }
+```
+
 
 ## Contact
 If you have any question, please contact me via yuzd610@163.com.
