@@ -89,7 +89,7 @@ def integrand():
     results = Parallel(n_jobs=-1)(delayed(V)(i) for i in tqdm(range(num)))
     q1, FP1 ,dfp1,ddfp1= zip(*results)
 
-    # 对返回的结果进行处理，例如：
+    
     for q2, FP2 ,dfp2,ddfp2 in zip(q1, FP1,dfp1,ddfp1):
         q.append(q2)
         v.append(FP2)
