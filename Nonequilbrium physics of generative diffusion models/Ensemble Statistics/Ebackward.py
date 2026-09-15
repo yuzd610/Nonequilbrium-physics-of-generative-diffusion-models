@@ -96,16 +96,16 @@ t_min = min_index *(T/(num-1))
 
 fig, ax1 = plt.subplots(figsize=(10, 6))
 color = 'tab:red'
-ax1.set_xlabel('t', color='black', fontsize=24)  # 增大xlabel字体大小
-ax1.set_ylabel('$value$', color='black', fontsize=24)  # 增大ylabel字体大小
+ax1.set_xlabel('t', color='black', fontsize=24) 
+ax1.set_ylabel('$value$', color='black', fontsize=24)  
 
 
 ax1.plot(t_valuesS, S_values_phi_b, label=r'${\phi^*}(t)$', color=color, linewidth=2)
 ax1.plot(t_valuesS, S_values_Sol, label=r'${\pi^*}(t)$', color='tab:orange', linewidth=2)
 ax1.plot(t_valuesS, S_values_Rate, label=r'${{\dot S}^*}(t)$', color='tab:olive', linewidth=2)
 
-ax1.tick_params(axis='y', labelcolor='black', labelsize=20)  # 增大y轴刻度字体大小
-ax1.tick_params(axis='x', labelcolor='black', labelsize=20)  # 增大x轴刻度字体大小
+ax1.tick_params(axis='y', labelcolor='black', labelsize=20)  
+ax1.tick_params(axis='x', labelcolor='black', labelsize=20)  
 
 
 
@@ -117,12 +117,11 @@ plt.axvline(x= t_min, color='purple', linestyle='--', label=f'$t^*=\\arg\\min _t
 
 
 
-fig.tight_layout()  # 调整布局
-plt.subplots_adjust(top=0.9)  # 调整顶部空间以避免标题被挡住
-# 增加图例字体大小
+fig.tight_layout()  
+plt.subplots_adjust(top=0.9)  
 
 
-fig.legend(loc="upper right", bbox_to_anchor=(1,1), bbox_transform=ax1.transAxes, fontsize='x-large')  # 增大图例字体大小
+fig.legend(loc="upper right", bbox_to_anchor=(1,1), bbox_transform=ax1.transAxes, fontsize='x-large')  
 
 plt.savefig('figure081.pdf')
 
