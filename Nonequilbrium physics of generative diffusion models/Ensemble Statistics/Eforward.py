@@ -108,7 +108,7 @@ plt.subplots_adjust(top=0.9)
 
 
 
-fig.legend(loc="upper right", bbox_to_anchor=(1,1), bbox_transform=ax1.transAxes, fontsize='x-large')  # 增大图例字体大小
+fig.legend(loc="upper right", bbox_to_anchor=(1,1), bbox_transform=ax1.transAxes, fontsize='x-large')  
 
 plt.savefig('1.pdf')
 
