@@ -83,8 +83,8 @@ S_values_Rate = [a - b for a, b in zip(S_values_Sol,S_values_phi_b)]
 
 fig, ax1 = plt.subplots(figsize=(10, 6))
 color = 'tab:red'
-ax1.set_xlabel('t', color='black', fontsize=24)  # 增大xlabel字体大小
-ax1.set_ylabel('$value$', color='black', fontsize=24)  # 增大ylabel字体大小
+ax1.set_xlabel('t', color='black', fontsize=24)  
+ax1.set_ylabel('$value$', color='black', fontsize=24)  
 
 ax1.plot(t_valuesS, S_values_phi_b, label='$\phi (t)$', color=color, linewidth=2)
 ax1.plot(t_valuesS, S_values_Sol, label='$\pi (t)$', color='tab:orange', linewidth=2)
@@ -92,8 +92,8 @@ ax1.plot(t_valuesS, S_values_Rate, label='${\dot S}(t)$', color='tab:olive', lin
 
 
 
-ax1.tick_params(axis='y', labelcolor='black', labelsize=20)  # 增大y轴刻度字体大小
-ax1.tick_params(axis='x', labelcolor='black', labelsize=20)  # 增大x轴刻度字体大小
+ax1.tick_params(axis='y', labelcolor='black', labelsize=20)  
+ax1.tick_params(axis='x', labelcolor='black', labelsize=20)  
 
 
 
